@@ -3,7 +3,6 @@ import logo from "./../images/logo.svg";
 export default function Header() {
 
   const toggleButton = () => {
-    const hamburgerBtn = document.getElementById("hamburger-btn");
     const hamburgerMenu = document.getElementById("hamburger-menu");
     hamburgerMenu.classList.toggle('hidden');
   }
